@@ -43,9 +43,9 @@ function draw()
 image(video, 0, 0, 600, 500);
 fill("#FF0000");
 stroke("#FF0000");
+circle(rightWristX,rightWristY,20);
 if(scorerightWrist > 0.2)
 {
-circle(rightWristX,rightWristY,20);
 if(scoreleftWrist > 0.2)
 {
 circle(leftWristX,leftWristY,20);
