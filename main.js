@@ -44,11 +44,11 @@ image(video, 0, 0, 600, 500);
 fill("#FF0000");
 stroke("#FF0000");
 circle(rightWristX,rightWristY,20);
+circle(leftWristX,leftWristY,20);
 if(scorerightWrist > 0.2)
 {
 if(scoreleftWrist > 0.2)
 {
-circle(leftWristX,leftWristY,20);
 if(rightWristY >0 && rightWristY <= 100)
 {
     document.getElementById("speed").innerhtml = "speed = 0.5x";
